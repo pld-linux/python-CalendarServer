@@ -5,8 +5,8 @@
 %define		module	CalendarServer
 %define	snap	20060823
 
-Summary:	Python modules designed for writing games
-Summary(pl):	Modu³y Pythona dla pisz±cych gry
+Summary:	Python modules to share calendaring information
+Summary(pl):	Modu³y Pythona do wspó³dzielenia informacji kalendarzowych
 Name:		python-%{module}
 Version:	0.0.0
 Release:	0.%{snap}.1
@@ -28,6 +28,16 @@ allows users to send each other and manage invitations.
 In order to provide interoperability with multiple calendaring
 clients, the server implements the CalDAV protocol, which is an
 extension of WebDAV, which is in turn an extension of HTTP.
+
+%description -l pl
+Darwin Calendar Server to zgodny ze standardami serwer pozwalaj±cy
+wielu u¿ytkownikom wspó³dzieliæ informacje kalendarzowe. Udostêpnia
+wspó³dzielone miejsce w siedzi do przechowywania terminarzy i pozwala
+u¿ytkownikom wysy³aæ miêdzy sob± i zarz±dzaæ zaproszeniami.
+
+Dla zapewnienia wspó³pracy z wieloma klientami kalendarza serwer
+implementuje protokó³ CalDAV, który jest rozszerzeniem WebDAV, który z
+kolei jest rozszerzeniem HTTP.
 
 %prep
 %setup -q -n %{module}
@@ -54,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/caldavd
 %dir %{py_sitescriptdir}/twistedcaldav
 %{py_sitescriptdir}/twistedcaldav/*.py[co]
-%dir %{py_sitescriptdir}/twistedcaldav/method/
+%dir %{py_sitescriptdir}/twistedcaldav/method
 %{py_sitescriptdir}/twistedcaldav/method/*.py[co]
-%dir %{py_sitescriptdir}/twistedcaldav/query/
+%dir %{py_sitescriptdir}/twistedcaldav/query
 %{py_sitescriptdir}/twistedcaldav/query/*.py[co]
