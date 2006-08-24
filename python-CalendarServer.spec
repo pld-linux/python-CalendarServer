@@ -10,7 +10,7 @@ Summary(pl):	Modu³y Pythona dla pisz±cych gry
 Name:		python-%{module}
 Version:	0.0.0
 Release:	0.%{snap}.1
-License:	LGPL
+License:	Apache Group License
 Group:		Libraries/Python
 Source0:	%{module}-%{snap}.tar.gz
 # Source0-md5:	5cb9954cbd1235e9534b1eea2fe711c5
