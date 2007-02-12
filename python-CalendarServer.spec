@@ -6,7 +6,7 @@
 %define	snap	20060823
 
 Summary:	Python modules to share calendaring information
-Summary(pl.UTF-8):   Moduły Pythona do współdzielenia informacji kalendarzowych
+Summary(pl.UTF-8):	Moduły Pythona do współdzielenia informacji kalendarzowych
 Name:		python-%{module}
 Version:	0.0.0
 Release:	0.%{snap}.1
