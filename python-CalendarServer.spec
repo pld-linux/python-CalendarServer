@@ -6,7 +6,7 @@
 %define	snap	20060823
 
 Summary:	Python modules to share calendaring information
-Summary(pl):	Modu³y Pythona do wspó³dzielenia informacji kalendarzowych
+Summary(pl.UTF-8):   ModuÅ‚y Pythona do wspÃ³Å‚dzielenia informacji kalendarzowych
 Name:		python-%{module}
 Version:	0.0.0
 Release:	0.%{snap}.1
@@ -29,14 +29,14 @@ In order to provide interoperability with multiple calendaring
 clients, the server implements the CalDAV protocol, which is an
 extension of WebDAV, which is in turn an extension of HTTP.
 
-%description -l pl
-Darwin Calendar Server to zgodny ze standardami serwer pozwalaj±cy
-wielu u¿ytkownikom wspó³dzieliæ informacje kalendarzowe. Udostêpnia
-wspó³dzielone miejsce w siedzi do przechowywania terminarzy i pozwala
-u¿ytkownikom wysy³aæ miêdzy sob± i zarz±dzaæ zaproszeniami.
+%description -l pl.UTF-8
+Darwin Calendar Server to zgodny ze standardami serwer pozwalajÄ…cy
+wielu uÅ¼ytkownikom wspÃ³Å‚dzieliÄ‡ informacje kalendarzowe. UdostÄ™pnia
+wspÃ³Å‚dzielone miejsce w siedzi do przechowywania terminarzy i pozwala
+uÅ¼ytkownikom wysyÅ‚aÄ‡ miÄ™dzy sobÄ… i zarzÄ…dzaÄ‡ zaproszeniami.
 
-Dla zapewnienia wspó³pracy z wieloma klientami kalendarza serwer
-implementuje protokó³ CalDAV, który jest rozszerzeniem WebDAV, który z
+Dla zapewnienia wspÃ³Å‚pracy z wieloma klientami kalendarza serwer
+implementuje protokÃ³Å‚ CalDAV, ktÃ³ry jest rozszerzeniem WebDAV, ktÃ³ry z
 kolei jest rozszerzeniem HTTP.
 
 %prep
