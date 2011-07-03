@@ -15,7 +15,7 @@ Group:		Libraries/Python
 # svn export http://svn.calendarserver.org/repository/calendarserver/CalendarServer/trunk/ CalendarServer-3.0
 # revision 7704
 Source0:	%{module}-%{version}-%{snap}.tgz
-# Source0-md5:	8cbbd6f9cf9b8f22cb0535f12f6a048a
+# Source0-md5:	39f4717b00192585f8a198d5427c6fb6
 URL:		http://trac.calendarserver.org/
 Requires:	python-TwistedMail
 Requires:	python-TwistedWeb
