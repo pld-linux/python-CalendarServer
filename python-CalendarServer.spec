@@ -17,6 +17,7 @@ Group:		Libraries/Python
 Source0:	%{module}-%{version}-%{snap}.tgz
 # Source0-md5:	39f4717b00192585f8a198d5427c6fb6
 URL:		http://trac.calendarserver.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-TwistedMail
 Requires:	python-TwistedWeb
 Requires:	python-TwistedWeb2 >= 0.2.0
